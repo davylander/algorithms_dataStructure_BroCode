@@ -21,7 +21,17 @@ public class MainLinkedList {
 		 *	advantages?
 		 *	1. Dynamic Data Structure (allocate needed memory while running)
 		 *	2. Insertion and Deeletion of Nodes is easy. O(1)
-		 *	3. No/Low memory waste				
+		 *	3. No/Low memory waste		
+		 *
+		 *	disadvantages? 
+		 *	1. Greater memory usage (additional pointer)
+		 *	2. No random access of elements (no index [i])
+		 *	3. Accessing/searching elements is more time consuming. O(n)
+		 *
+		 *	uses?
+		 *	1. implement Stack/Queues
+		 *	2. GPS navigation
+		 *	3. Music playlist		
 		 */
 		
 		LinkedList<String> linkedList = new LinkedList<String>();
